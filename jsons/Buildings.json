@@ -1,25 +1,26 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+    {
+        "name": "Subway",
+        "cost": 360,
+        "happiness": 2,
+        "percentStatBonus": {"production": 5},
+        "maintenance": 3,
+        "requiredTech": "Railroads"
+    },
+    {
+        "name": "Shopping Mall",
+        "happiness": 3,
+        "gold": 3
+        "percentStatBonus": {"gold": 20}
+        "specialistSlots": {"Merchant": 2},
+        "requiredTech": "Plastics"
+    },
+    {
+        "name": "Semiconductor Foundry",
+        "science": 3,
+        "production": 3,
+        "specialistSlots": {"Scientist": 1},
+        "specialistSlots": {"Engineer": 1},
+        "requiredTech": "Computers"
+    }
 ]
