@@ -19,8 +19,7 @@
         "name": "Semiconductor Foundry",
         "science": 3,
         "production": 3,
-        "specialistSlots": {"Scientist": 1},
-        "specialistSlots": {"Engineer": 1},
+        "specialistSlots": {"Engineer": 2},
         "requiredTech": "Computers"
     }
 ]
