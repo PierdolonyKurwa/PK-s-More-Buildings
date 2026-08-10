@@ -22,5 +22,18 @@
         "specialistSlots": {"Engineer": 2},
         "maintenance": 3,
         "requiredTech": "Computers"
+    },
+    {
+        "name": "Sawmill",
+        "uniques": ["[+1 Production] from every [Lumber mill]"],
+        "maintenance": 2,
+        "requiredTech": "Construction"
+    },
+    {
+        "name": "Furniture Workshop",
+        "uniques": ["[+1 Gold] from every [Lumber mill]"],
+        "maintenance": 2,
+        "requiredTech": "Construction"
     }
 ]
+
